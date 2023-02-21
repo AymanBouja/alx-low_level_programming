@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * alphabet - function
+ * print_alphabet - function
  *
- * Description: This is 
+ * Description: This is
  *
  * Return: the alphabet
  */
