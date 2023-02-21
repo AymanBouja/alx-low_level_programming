@@ -7,11 +7,20 @@
  */
 int main(void)
 {
-	int i;
+	int d;
+	char c;
 
-	for (i = 122; i >= 97; i--)
+	c = 'a';
+	d = 0;
+	while (d < 10)
 	{
-	putchar(i);
+	putchar(d + '0');
+	d++;
+	}
+	while (c <= 'f')
+	{
+	putchar(c);
+	c++;
 	}
 	putchar('\n');
 	return (0);

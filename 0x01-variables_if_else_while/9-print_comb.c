@@ -9,9 +9,14 @@ int main(void)
 {
 	int i;
 
-	for (i = 122; i >= 97; i--)
+	for (i = 0; i <= 9; i++)
 	{
-	putchar(i);
+	if (i != 0)
+	{
+	putchar(',');
+	putchar(' ');
+	}
+	putchar(i + '0');
 	}
 	putchar('\n');
 	return (0);
