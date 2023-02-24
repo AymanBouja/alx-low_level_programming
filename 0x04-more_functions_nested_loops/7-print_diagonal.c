@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_line -  prints /
+ * print_diagonal -  prints /
  *
  * @n: number of /
  *
  * Return: void
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
