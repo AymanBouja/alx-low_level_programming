@@ -13,6 +13,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	int i, c = 0;
 	unsigned long int curr;
 	unsigned long int e = n ^ m;
+	
 	for (i = 63; i >= 0; i--)
 	{
 		curr = e >> i;
